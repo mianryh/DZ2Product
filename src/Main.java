@@ -7,7 +7,7 @@ public class Main {
         Product product2 = new Product(14, 123.0, 42.575); // 42.575% скидка
         Product product3 = new Product(3, 200.0, 59.1); // 59.1% скидка
 
-        // Вызываем метод calculateTotal для каждого продукта
+        // Вызываем метод priceCalculation для каждого продукта
         product1.priceCalculation();
         product2.priceCalculation();
         product3.priceCalculation();
